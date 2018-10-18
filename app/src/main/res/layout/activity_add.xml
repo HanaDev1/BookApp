@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="hanaalalwi.bookapp.AddBook">
+
+    <EditText
+        android:id="@+id/book_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/bookName" />
+
+    <EditText
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/bookPrice"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/bookQuantity"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/supName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/SubName" />
+
+    <EditText
+        android:id="@+id/supEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/SubEmail" />
+
+    <EditText
+        android:id="@+id/supPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/SubNumner"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/SaveData"
+        style="@style/buttonStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/addButton" />
+</LinearLayout>

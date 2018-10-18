@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">BookApp</string>
+    <string name="SuccessInsert">Successfully insert new Book </string>
+    <string name="FaildInsert">Faild insert new Book </string>
+    <string name="SuccessUpdate">Successfully update Book </string>
+    <string name="FaildUpdate">Faild to update Book </string>
+    <string name="SuccessDel">Successfully delete </string>
+    <string name="FaildDel">Faild delete </string>
+    <string name="messageId">"Books saved with row id: "</string>
+    <string name="bookName">Book Name</string>
+    <string name="bookPrice">Book Price</string>
+    <string name="bookQuantity">Quantity</string>
+    <string name="SubName">Supplier name </string>
+    <string name="SubEmail">Supplier Email </string>
+    <string name="SubNumner">Supplier Phone Number </string>
+    <string name="addButton">Add</string>
+    <string name="SaveChanges">Save</string>
+    <string name="DeleteBook">Delete</string>
+    <string name="DeleteAll">Delete all Books </string>
+    <string name="AddNew">Add new book </string>
+    <string name="emptyMessage">Empty List Please fill me .</string>
+    <string name="contact"><u>Contact</u></string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_dialog_msg">Are you sure to delete All books ?</string>
+    <string name="delete_dialog_msg2">Are you sure to delete this book ?</string>
+    <string name="delete">Delete</string>
+
+</resources>
